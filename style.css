@@ -1,0 +1,38 @@
+body{
+	background: #FFFABA;
+}
+form{
+	margin: 5% 39%;
+}
+h1{
+	display: inline;
+	text-align: center;
+}
+table{
+	margin-top: 20px;
+	marign-left: 10px;
+}
+.content{
+	width: 400px;
+	height:250px;
+}
+.content img,h1,label{
+	margin:10px 20px 0px;
+	color: #FFD700;
+}
+.content input{
+	margin: 10px 20px 0px;
+	border-radius: 25px;
+	border: 2px solid;
+	height: 20px;
+}
+h1:hover ,label:hover{
+	color: white;
+}
+input:hover{
+	box-shadow:3px 3px;
+}
+.content:hover {
+  background-color: #aa4322;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
