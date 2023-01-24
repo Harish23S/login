@@ -7,29 +7,26 @@ background-image: radial-gradient(
     #00bf72,
     #a8eb12
   );
-}
-form{
-	margin: 5% 37%;
+	text-align: center;
 }
 h1{
 	display: inline;
 	text-align: center;
 }
 table{
-	margin-top: 20px;
+	margin: 10px auto 0 auto;
+	border-spacing: 23px 14px;
 }
 .content{
-        background: transparent;
-	width: 400px;
-	height:250px;
+	width: 30%;
+	height:50%;
+	margin: 75px auto 0 auto;
 	box-shadow: 0 4px 8px 0 rgba(1, 0, 0, 0.2), 0 3px 6px 2px rgba(0.1, 0.2, 0.4, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .content img,h1,label{
-	margin:10px 20px 0px;
-	color: black;
+	color: white;
 }
 .content input{
-	margin: 10px 20px 0px;
 	border-radius: 25px;
 	border: 2px solid;
 	height: 20px;
@@ -41,23 +38,34 @@ input:hover{
 	box-shadow:3px 3px;
 }
 .content:hover {
-  background-color: #aa4322;
+  background-color: green;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 620px)
 {
-	form{
-		margin: 8%;
-	}
 	.content{
-		width: 100%;
-		height: auto;
-	}
-	label{
-		margin: 10px 0 7px;
-	}
-	h1{
-		margin: 0;
-	}
+	height:50%;
+	width: auto;
+};
+}
+
+@media screen and (min-width: 800px)
+{
+	.content{
+	height:50%;
+	width: 50%;
+};
+}
+
+@media screen and (max-width: 290px)
+{
+	.content{
+	height:50%;
+	width: auto;
+}
+	table{
+	margin: 10px auto 0 auto;
+	border-spacing: 3px 11px;
+};
 }
