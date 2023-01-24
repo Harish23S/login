@@ -1,5 +1,12 @@
 body{
-	background: #ABCDEF;
+background-image: radial-gradient(
+    circle,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
 }
 form{
 	margin: 5% 37%;
@@ -12,6 +19,7 @@ table{
 	margin-top: 20px;
 }
 .content{
+        background: transparent;
 	width: 400px;
 	height:250px;
 	box-shadow: 0 4px 8px 0 rgba(1, 0, 0, 0.2), 0 3px 6px 2px rgba(0.1, 0.2, 0.4, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
